@@ -87,7 +87,7 @@ class FromXlsxController extends Controller{
 
     public function __construct(Request $request, Product $product, Category $category, Image $image){
 
-        $this->pathToFile   = public_path('/storage/parse/celtic.xlsx');
+        $this->pathToFile   = public_path('/storage/parse/_celtic.xlsx');
 
         $this->startRow     = '2';
 
